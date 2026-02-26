@@ -24,11 +24,11 @@
 
         layer_0 {
             bindings = <
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-                &kp A  &kp A  &kp A  &kp A  &kp A    &kp A  &kp A  &kp A  &kp A  &kp A
+&studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock                    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
+&studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock                    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
+&studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock                    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
+&studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
+                &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
             >;
         };
     };
