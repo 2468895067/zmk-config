@@ -20,3 +20,8 @@
 &left_encoder {
     status = "okay";
 };
+
+// ENCODER 2
+&left_ex1_encoder {
+    status = "okay";
+};
