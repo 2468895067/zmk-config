@@ -32,7 +32,7 @@
 //                           &trans     &trans        &trans     &trans    &trans    &kp A  &kp A  &kp A  &kp A  &kp A
             >;
 
-            sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp C D>;
+            sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp C D>, <&inc_dec_kp E F>;
         };
 
         layer_1 {
@@ -44,7 +44,7 @@
 //                 &trans     &trans  &trans  &trans          &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp W S>, <&inc_dec_kp A D>;
+            sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp C D>, <&inc_dec_kp E F>;
         };
 
         layer_2 {
@@ -56,7 +56,7 @@
 //                 &trans     &trans     &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>, <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp C D>, <&inc_dec_kp E F>;
         };
 
         layer_3 {
@@ -68,7 +68,7 @@
 //                 &trans         &trans        &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>, <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp C D>, <&inc_dec_kp E F>;
         };
 
         layer_4 {
@@ -80,7 +80,7 @@
 //                                          &trans         &trans  &trans        &trans          &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>, <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp A B>, <&inc_dec_kp C D>, <&inc_dec_kp E F>;
         };
     };
 };
