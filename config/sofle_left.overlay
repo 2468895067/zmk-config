@@ -22,6 +22,7 @@
 };
 
 // ENCODER 2
+
 &left_ex1_encoder {
     status = "okay";
 };
