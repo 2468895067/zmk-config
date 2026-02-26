@@ -59,6 +59,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)                 RC(2,6) RC(2,7) 
     };
 
 // ENCODER 2
+
     left_ex1_encoder: encoder_left_ex1 {
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
@@ -77,7 +78,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)                 RC(2,6) RC(2,7) 
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
+        sensors = <&left_encoder &left_ex1_encoder &right_encoder>;
         triggers-per-rotation = <20>;
     };
 };
