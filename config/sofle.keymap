@@ -6,10 +6,6 @@
 
 #include <behaviors.dtsi>
 
-#define BASE 0
-#define LOWER 1
-#define RAISE 2
-#define ADJUST 3
 
 / {
     // Activate ADJUST layer by pressing raise and lower
