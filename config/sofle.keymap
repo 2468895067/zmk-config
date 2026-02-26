@@ -24,11 +24,11 @@
 
         layer_0 {
             bindings = <
-&studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock                    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
-&studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock                    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
-&studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock                    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
-&studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
-                &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
+&kp 1  &kp 2  &kp 3  &kp 4  &kp 5  &kp 6                    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&kp 7  &kp 8  &kp 9  &kp B  &kp C  &kp D                    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&kp E  &kp F  &kp G  &kp H  &kp I  &kp J                    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&kp K  &kp L  &kp M  &kp N  &kp O  &kp P  &kp Q    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+                &kp R  &kp S  &kp T  &kp U  &kp V    &kp A  &kp A  &kp A  &kp A  &kp A
             >;
         };
     };
