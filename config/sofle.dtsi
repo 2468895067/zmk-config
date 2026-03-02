@@ -8,7 +8,6 @@
 #include <layouts/josefadamcik/sofle.dtsi>
 #include <dt-bindings/zmk/pointing.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <input_analog_axis.h>
 
 
 &josefadamcik_sofle_layout {
