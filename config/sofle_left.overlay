@@ -17,37 +17,7 @@
         ;
 };
 
-// 启用 ADC 硬件
-&adc {
-    status = "okay";
-};
 
-/ {
-    // 定义一个名为 "analog_joystick" 的节点
-    analog_joystick {
-        // 关键：引用 ZMK 官方的摇杆驱动
-        compatible = "zmk,analog-joystick"; 
-        label = "ANALOG_JOYSTICK";
-
-        // X 轴配置
-        x_axis {
-            io-channels = <&adc 2>; // 连接到 AIN0 (P0.02)
-            zephyr,axis = <INPUT_ABS_X>; // 映射为 X 轴
-            in_min = <0>;     // ADC 最小值
-            in_max = <4095>;  // ADC 最大值
-            in_deadzone = <200>; // 死区
-        };
-
-        // Y 轴配置 (同理)
-        y_axis {
-            io-channels = <&adc 3>; // 连接到 AIN1 (P0.03)
-            zephyr,axis = <INPUT_ABS_Y>;
-            in_min = <0>;
-            in_max = <4095>;
-            in_deadzone = <200>;
-        };
-    };
-};
 
 
 //  &left_encoder {
