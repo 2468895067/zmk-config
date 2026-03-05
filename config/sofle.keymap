@@ -27,8 +27,6 @@
 &kp HOME   &kp END        &kp ENTER  &kp LEFT      &kp RIGHT  &mo 3           &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
 &kp PG_UP  &mo 2          &mkp LCLK  &kp UP_ARROW  &trans     &trans          &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
             >;
-
-//            sensor-bindings =  <&inc_dec_kp A B>, <&inc_dec_kp C D>,  <&inc_dec_kp E F>;
         };
 
         layer_1 {
@@ -38,7 +36,6 @@
 &kp V   &mo 2  &kp E      &kp K  &trans  &trans                &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-
         };
 
         layer_2 {
@@ -47,7 +44,6 @@
 &kp Q  &kp M   &mkp LCLK  &kp COMMA  &kp PERIOD  &mo 3             &trans  &trans  &trans  &trans  &trans  &trans
 &kp P  &trans  &kp H      &kp Y      &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans
             >;
-
 
         };
 
@@ -68,5 +64,5 @@
             >;
 
         };
-    };
 };
+
